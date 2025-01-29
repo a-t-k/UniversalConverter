@@ -9,6 +9,14 @@
 		<PackageTags>Excel;DataTable;TabularDataResource;DataFrame;List</PackageTags>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<PackageId>AT$(AssemblyName)</PackageId>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Converts collections</Title>
+		<Version>0.1.0</Version>
+		<Description>Converts collections from and to: DataFrames, DataTables, List, TabularDataResource, Save collection as excel file.</Description>
+		<RepositoryUrl>https://github.com/a-t-k/UniversalConverter</RepositoryUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
