@@ -17,7 +17,7 @@ You can install the `Universal converter` package from NuGet by searching for "U
 
 
 ```
-Install-Package UniversalConverter
+Install-Package ATUniversalConverter
 ```
 
 #### Usage
