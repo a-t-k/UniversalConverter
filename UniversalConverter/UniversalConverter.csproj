@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>HelperClasses</Title>
+		<PackageTags>Excel;DataTable;TabularDataResource;DataFrame;List</PackageTags>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<PackageId>AT$(AssemblyName)</PackageId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DataView.InteractiveExtension" Version="1.0.104" />
+		<PackageReference Include="DocumentFormat.OpenXml" Version="3.0.0-ci0083" />
+		<PackageReference Include="Microsoft.Data.Analysis" Version="0.21.0-preview.23266.6" />
+		<PackageReference Include="Microsoft.DotNet.Interactive.Formatting" Version="1.0.0-beta.23313.2" />
+		<PackageReference Include="Microsoft.ML" Version="3.0.0-preview.23266.6" />
+		<PackageReference Include="Microsoft.ML.DataView" Version="3.0.0-preview.23266.6" />
+		<PackageReference Include="SandDance.InteractiveExtension" Version="1.0.104" />
+	</ItemGroup>
+
+</Project>

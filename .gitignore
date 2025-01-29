@@ -1,0 +1,6 @@
+﻿.vs
+*.user
+UniversalConverter/obj
+UniversalConverterTests/bin
+UniversalConverterTests/obj
+UniversalConverter/bin
